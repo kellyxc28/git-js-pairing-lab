@@ -73,4 +73,15 @@ const triangleArea = (height, base) => {
     return (1/2) * (base * height);
 }
 
-console.log(triangleArea(3, 4)); 
+// console.log(triangleArea(3, 4)); 
+
+//Q9
+const betweenTwentyAndFourty=(num6)=>{
+    if(num6>20 && nunm6 < 40){
+        return true; 
+    }
+    else {
+        return false;
+    }
+}
+console.log(betweenTwentyAndFourty(5));
