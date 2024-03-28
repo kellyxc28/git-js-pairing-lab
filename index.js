@@ -65,5 +65,12 @@ const isNegative=(num5)=> {
     }
 }
 
-console.log(isNegative(4));
-console.log(isNegative(-4));
+// console.log(isNegative(4));
+// console.log(isNegative(-4));
+
+// Q8
+const triangleArea = (height, base) => {
+    return (1/2) * (base * height);
+}
+
+console.log(triangleArea(3, 4)); 
