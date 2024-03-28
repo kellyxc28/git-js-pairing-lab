@@ -41,4 +41,16 @@ const untilNum = (num) => {
 const multiply=(num1,num2)=> {
     return num1*num2;
 }
-console.log(multiply(3, 5));
+// console.log(multiply(3, 5));
+
+const add = (num3, num4) => {
+    if (num3 === num4) {
+        return (num3 + num4) * 3; 
+    }
+    else {
+        return num3 + num4;
+    }
+}
+
+console.log(add(2, 4)); 
+console.log(add(4, 4)); 
