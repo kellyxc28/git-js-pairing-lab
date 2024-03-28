@@ -52,5 +52,18 @@ const add = (num3, num4) => {
     }
 }
 
-console.log(add(2, 4)); 
-console.log(add(4, 4)); 
+// console.log(add(2, 4)); 
+// console.log(add(4, 4)); 
+
+//Q7
+const isNegative=(num5)=> {
+    if (Math.sign(num5)=== -1){
+        return true;
+    }
+   else if (Math.sign(num5) === 1){
+        return false;
+    }
+}
+
+console.log(isNegative(4));
+console.log(isNegative(-4));
