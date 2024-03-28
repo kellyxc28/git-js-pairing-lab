@@ -5,7 +5,7 @@ const fiveToOneHundred = () => {
         console.log(i);
     }
 }
-// fiveToOneHundred()
+ fiveToOneHundred();
 
 // Q2 
 const multiplesOfThree = () => {
@@ -15,4 +15,17 @@ const multiplesOfThree = () => {
         }
     }
 }
-multiplesOfThree();
+ multiplesOfThree();
+
+//Q3 
+const multiplesOfThreeOrFive = () => {
+    for(i = 1; i <= 100; i++){
+        if (i % 3 === 0||i % 5=== 0) {
+            console.log(i);
+        }
+    }
+}
+
+multiplesOfThreeOrFive();
+
+
