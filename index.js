@@ -5,7 +5,7 @@ const fiveToOneHundred = () => {
         console.log(i);
     }
 }
- fiveToOneHundred();
+//  fiveToOneHundred();
 
 // Q2 
 const multiplesOfThree = () => {
@@ -15,7 +15,7 @@ const multiplesOfThree = () => {
         }
     }
 }
- multiplesOfThree();
+//  multiplesOfThree();
 
 //Q3 
 const multiplesOfThreeOrFive = () => {
@@ -26,12 +26,19 @@ const multiplesOfThreeOrFive = () => {
     }
 }
 
-multiplesOfThreeOrFive();
+// multiplesOfThreeOrFive();
 
+//Q4
 const untilNum = (num) => {
     for (i = 1; i <= num; i++) {
         console.log(i);
     }
 }
 
-untilNum(10);
+// untilNum(10);
+
+// Q5
+const multiply=(num1,num2)=> {
+    return num1*num2;
+}
+console.log(multiply(3, 5));
